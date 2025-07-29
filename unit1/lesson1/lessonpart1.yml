@@ -1,0 +1,76 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart1
+title: LINQ concepts
+content: >
+  ### Essential LINQ Operators and Techniques for Advanced .NET Developers
+
+
+  - **Select and SelectMany**: Transform collections by projecting each element
+  into a new form. `SelectMany` flattens collections of collections.
+
+
+  - **Where**: Filter elements based on a predicate function, allowing for
+  refined data selection.
+
+
+  - **OrderBy and OrderByDescending**: Sort elements in ascending or descending
+  order. Use `ThenBy` and `ThenByDescending` for secondary sorting.
+
+
+  - **GroupBy**: Group elements by a specified key, enabling aggregation and
+  categorization of data.
+
+
+  - **Join and GroupJoin**: Combine elements from two sequences based on
+  matching keys, similar to SQL joins.
+
+
+  - **Distinct**: Remove duplicate elements from a collection, ensuring
+  uniqueness.
+
+
+  - **Union, Intersect, and Except**: Perform set operations to combine,
+  intersect, or subtract collections.
+
+
+  - **Aggregate**: Apply an accumulator function over a sequence, useful for
+  complex reductions.
+
+
+  - **Any, All, and Contains**: Check for the presence of elements that satisfy
+  a condition, or verify if a collection contains a specific element.
+
+
+  - **First, FirstOrDefault, Single, and SingleOrDefault**: Retrieve elements
+  from a collection with options for handling empty sequences.
+
+
+  - **Skip and Take**: Implement pagination by skipping a specified number of
+  elements and taking a specified number of elements.
+
+
+  - **Zip**: Combine two sequences into a single sequence by merging
+  corresponding elements.
+
+
+  - **ToDictionary and ToLookup**: Convert collections into dictionaries or
+  lookups for efficient key-based access.
+
+
+  - **AsEnumerable and AsQueryable**: Switch between LINQ to Objects and LINQ to
+  SQL/Entities, allowing for deferred execution and query optimization.
+
+
+  - **Deferred Execution**: Understand how LINQ queries are not executed until
+  the results are enumerated, enabling efficient data processing.
+
+
+  - **Expression Trees**: Utilize expression trees for dynamic query generation
+  and manipulation, enhancing flexibility in query construction.
+
+
+  Mastering these LINQ operators and techniques will empower you to write
+  efficient, readable, and maintainable code in .NET applications.
+showEditor: true
+editors:
+  - course1/unit1/lesson1/lessonpart1/Learn.SelectMany.cs

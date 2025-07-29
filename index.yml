@@ -8,12 +8,8 @@ contacts:
   - displayName: Mehran Davoudi
     pictureUrl: https://avatars.githubusercontent.com/u/5070766?v=4
     homePageUrl: https://github.com/mehrandvd
+files:
+  - path: course1/unit1/lesson1/lessonpart1/Learn.SelectMany.cs
+    content: var allWheels = cars.SelectMany(c=>c.Wheels);
 units:
-  - id: unit1
-    title: Unit 1
-    lessons:
-      - id: lesson1
-        title: Lesson 1
-        lessonParts:
-          - id: lessonpart1
-            title: Page 1
+  - unit1/index.yml
